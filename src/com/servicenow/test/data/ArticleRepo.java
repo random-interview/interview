@@ -14,4 +14,12 @@ public class ArticleRepo {
 	public Article getArticle(String url) {
 		return new Article();
 	}
+	
+	public List<Article> getArticlesWithPngImages() {
+		return new ArrayList<>();
+	}
+	
+	public List<Article> getTechnicalArticles() {
+		return new ArrayList<>();
+	}
 }
