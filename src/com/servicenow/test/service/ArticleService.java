@@ -9,10 +9,6 @@ public class ArticleService extends SecurityService {
 
 	private ArticleRepo articleRepo;
 
-	public ArticleService() {
-		this.articleRepo = new ArticleRepo();
-	}
-
 	public List<Article> getArticles() {
 		authorize();
 
